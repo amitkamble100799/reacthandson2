@@ -1,0 +1,85 @@
+body{
+  background-image: linear-gradient(to right, rgb(76, 76, 184),pink,rgb(54, 54, 162));
+}
+.box{
+  height: 40px;
+  width: 300px;
+}
+.txt
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.button
+{
+  height: 40px;
+  width: 150px;
+  position: relative;
+  left: 5%;
+  background-color: #72be46;
+  border-radius: 20px;
+}
+.item{
+ min-width: 100px;
+ height: 80px;
+ background-color: violet;
+border: 2px solid black;
+
+}
+th{
+  color:  red;
+  border: 1px solid black;
+}
+td{
+  font-size: large;
+  border: 1px solid black;
+}
+.box1
+{
+  width: 800px;
+  min-height: 200px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  position: absolute;
+  top: 450px;
+  left: 25%;
+gap: 20px;
+padding: 10px;
+background-color:white;
+}
+.name{
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 55px;
+}
+.dpt{
+  font-size: 24px;
+  margin: 10px;
+}
+.rt{
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 53px;
+}
+.head{
+  text-align: center;
+}
+.txt1
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+.dt{
+  display: flex;
+  gap: 10px;
+}
+
+
+.App {
+  text-align: center;
+}
